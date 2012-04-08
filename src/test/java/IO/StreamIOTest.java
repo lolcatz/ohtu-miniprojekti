@@ -67,8 +67,7 @@ public class StreamIOTest extends TestCase {
         io.printLine("line3");
         assertEquals(baos.toString(), "line1\nline2\nline3\n");
     }
-    
-    
+       
     /**
      * Test of print method, of class StreamIO.
      */
